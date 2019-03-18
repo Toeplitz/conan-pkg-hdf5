@@ -13,7 +13,7 @@ class Hdf5Conan(ConanFile):
     options = {"shared": [True, False],
                 "with_tests":[True,False]}
     default_options = "shared=True","with_tests=False"
-    requires="zlib/1.2.8@conan/stable"
+    requires="zlib/1.2.11@conan/stable"
     generators = "cmake"
     exports_sources="*.tar.gz"
     exports = ["FindHDF5.cmake","FindHDF5_original.cmake",
