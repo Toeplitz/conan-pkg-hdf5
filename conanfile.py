@@ -47,7 +47,7 @@ conan_basic_setup()''')
         cmake_defs["HDF5_BUILD_EXAMPLES"] = "OFF"
         cmake_defs["HDF5_BUILD_TOOLS"]="ON"
         cmake_defs["HDF5_BUILD_HL_LIB"]="OFF"
-        cmake_defs["HDF5_BUILD_CPP_LIB"]="OFF"
+        cmake_defs["HDF5_BUILD_CPP_LIB"]="ON"
         cmake_defs["HDF5_ENABLE_Z_LIB_SUPPORT"]="ON"
         cmake_defs["CMAKE_INSTALL_PREFIX"]=self.package_folder
 
